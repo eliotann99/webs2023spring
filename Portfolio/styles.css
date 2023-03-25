@@ -42,20 +42,9 @@ p{
     max-width: 50em;
 }
 
-.parallax-container {
-    height: 50vh;
-    position: relative;
-  }
-  
-  .parallax-image {
-    background-image: url('pittsburgh.jpeg');
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
+#nav-bar::before{
+    background-color: lightblue;
+}
 
 .portrait{
     display: block;
