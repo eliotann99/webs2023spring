@@ -6,8 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- script to load another html into this page -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+    <!-- script to add parallax effect to image using js -->
+    <script>
+        const parallaxImage = document.querySelector('.parallax-image');
+        window.addEventListener('scroll', () => {
+          const scrollY = window.pageYOffset;
+          parallaxImage.style.transform = `translate3d(0, ${scrollY * 0.5}px, 0)`;
+        });</script>
 </head>
 <body>    
     <div class="page">
@@ -21,7 +28,13 @@
             </script>
             <div id="nav-bar"></div>
             </header>
-
+        </div>
+    </div>
+            <div class="parallax-container">
+                <div class="parallax-image"></div>
+            </div>
+    <div class="page">
+        <div class="container">
             <section>
             <h2 class="personal-info">About:</h2>
             <img class="portrait" src="portrait.jpg" alt="Picture of me">
