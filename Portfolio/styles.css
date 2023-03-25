@@ -43,20 +43,18 @@ p{
 }
 
 .parallax-container {
-    position: relative;
     height: 50vh;
-    left: 0;
-    right: 0;
-}
-
-.parallax-image {
-  background-image: url('pittsburgh.png');
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+    position: relative;
+  }
+  
+  .parallax-image {
+    background-image: url('pittsburgh.jpeg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 
 .portrait{
