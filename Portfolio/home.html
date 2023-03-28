@@ -7,7 +7,16 @@
     <title>Home Page</title>
     <link rel="stylesheet" href="styles.css">
     <!-- script to load another html into this page -->
-    
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.min.js"></script>
+
+
+    <!-- script to add parallax effect to image using js -->
+    <script>
+        const parallaxImage = document.querySelector('.parallax-image');
+        window.addEventListener('scroll', () => {
+          const scrollY = window.pageYOffset;
+          parallaxImage.style.transform = `translate3d(0, ${scrollY * 0.5}px, 0)`;
+        });</script>
 </head>
 <body>    
     <div class="page">
@@ -16,7 +25,7 @@
             <h1 class="personal-info">Welcome!</h1>
             <script>
                 $(function(){
-                $("#nav-bar").load("menu.html");
+                $("#nav-bar").get("menu.html");
                 });
             </script>
             <div id="nav-bar"></div>
@@ -49,13 +58,6 @@
         </div>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- script to add parallax effect to image using js -->
-    <script>
-    const parallaxImage = document.querySelector('.parallax-image');
-    window.addEventListener('scroll', () => {
-        const scrollY = window.pageYOffset;
-        parallaxImage.style.transform = `translate3d(0, ${scrollY * 0.5}px, 0)`;
-    });</script>
+    
 </body>
 </html>
