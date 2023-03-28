@@ -17,6 +17,11 @@ p{
 
 }
 
+.contact{
+    text-align: center;
+    font-size: 24pt;
+}
+
 .menu{
     display: flex;
     justify-content: center;
@@ -30,6 +35,19 @@ p{
     font-family: 'Inter';
     font-style: normal;
     color: #000000;
+}
+
+.icons-names{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container{
