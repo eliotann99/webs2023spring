@@ -16,6 +16,11 @@ p{
 
 }
 
+hr{
+    margin: 2em;
+    border-color: solid lightgray;
+}
+
 .contact{
     text-align: center;
     font-size: 24pt;
@@ -45,7 +50,7 @@ p{
 
 
 .project-images{
-    border: 1px solid black;
+    border: 1px solid lightgray;
     max-width: 100%;
     max-height: 100%;
     padding: 1em;
@@ -53,9 +58,8 @@ p{
 
 
 .project-text{
-    color: #FCA311;
+    color: #B0DB43;
     font-family: 'Inter';
-    padding-top: 2em;
 }
 
 .slideshow{
@@ -69,6 +73,12 @@ p{
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
+}
+
+.twine{
+    text-decoration: none;
+    color: #427AA1;
+    font-family: 'Inter';
 }
 
 .tag{
