@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +9,7 @@
 
 
 .personal-info{
-    font-family: 'Inter';
+    font-family: 'Pacifico', cursive;
     color: #000000;
 }
 
@@ -36,9 +39,9 @@ hr{
     padding: 1em;
     font-size: 1.5em;
     text-decoration: none;
-    font-family: 'Inter';
+    font-family: 'Pacifico', cursive;
     font-style: normal;
-    color: #000000;
+    color: lightblue;
 }
 
 .icons-names{
@@ -58,7 +61,7 @@ hr{
 
 
 .project-text{
-    color: #B0DB43;
+    color: orange;
     font-family: 'Inter';
 }
 
