@@ -5,6 +5,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #E8E9EB;
+    /*  D3D0CB timberwolf
+        C2D3CD ash gray
+        DBE4EE alice blue
+        EFF1ED white smoke  */
   }
 
 
@@ -21,7 +26,9 @@ p{
 
 hr{
     margin: 2em;
-    border-color: solid lightgray;
+    height: 2px; 
+    background-color: black; 
+    border: none; 
 }
 
 .contact{
@@ -41,7 +48,11 @@ hr{
     text-decoration: none;
     font-family: 'Pacifico', cursive;
     font-style: normal;
-    color: lightblue;
+    color: #427AA1;
+}
+
+iframe{
+    width: 100%;
 }
 
 .icons-names{
@@ -56,12 +67,11 @@ hr{
     border: 1px solid lightgray;
     max-width: 100%;
     max-height: 100%;
-    padding: 1em;
 }
 
 
 .project-text{
-    color: orange;
+    color: #DE3C4B;
     font-family: 'Inter';
 }
 
@@ -78,11 +88,26 @@ hr{
     object-fit: cover;
 }
 
-.twine{
+.project-links{
     text-decoration: none;
     color: #427AA1;
     font-family: 'Inter';
 }
+
+audio {
+    width: 100%;
+    padding: .5em;
+  }
+ 
+.audio-div{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #427AA1;
+    font-family: 'Pacifico', cursive;
+}
+
 
 .tag{
     display: flex;
@@ -132,7 +157,7 @@ span.tag{
     text-decoration: none;
 }
 
-@media (min-width: 50em){
+@media (min-width: 40em){
     .menu a{
         font-size: 2em;
         padding: 2em;
@@ -140,7 +165,7 @@ span.tag{
     .portrait{
         float:left;
         flex-direction: row;
-        width: 40%;
+        width: 50%;
         padding-right: 1em;
     }
     .social-media{
